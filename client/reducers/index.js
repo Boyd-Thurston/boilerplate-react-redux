@@ -2,11 +2,12 @@
 import { combineReducers } from 'redux'
 
 // local imports
-import user from './user'
+import templateStore from './templateReducer'
 
 // combine reducers to single reducer
 const reducer = combineReducers({
-  user
+  // add reducers here, remove teplateStore when nolonger needed
+  templateStore
 })
 
 // export single reducer
